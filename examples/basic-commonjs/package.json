@@ -10,10 +10,14 @@
     "browserify": "^13.0.0",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
-    "watchify": "^3.7.0"
+    "watchify": "^3.7.0",
+    "snyk": "^1.189.0"
   },
   "scripts": {
     "build": "browserify ./index.js -t babelify -o bundle.js",
-    "start": "watchify ./index.js -v -t babelify -o bundle.js"
-  }
+    "start": "watchify ./index.js -v -t babelify -o bundle.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
