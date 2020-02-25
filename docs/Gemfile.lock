@@ -27,14 +27,11 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
-    mini_portile2 (2.1.0)
-    nokogiri (1.6.8)
-      mini_portile2 (~> 2.1.0)
-      pkg-config (~> 1.1.7)
-    nokogiri (1.6.8-x64-mingw32)
-      mini_portile2 (~> 2.1.0)
-      pkg-config (~> 1.1.7)
-    pkg-config (1.1.7)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.8)
+      mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.8-x64-mingw32)
+      mini_portile2 (~> 2.4.0)
     posix-spawn (0.3.11)
     pygments.rb (0.6.3)
       posix-spawn (~> 0.3.6)
@@ -46,7 +43,7 @@ GEM
     redcarpet (3.3.4)
     rouge (1.11.1)
     safe_yaml (1.0.4)
-    sanitize (2.1.0)
+    sanitize (2.1.1)
       nokogiri (>= 1.4.4)
     sass (3.4.22)
     yajl-ruby (1.2.1)
@@ -64,7 +61,7 @@ DEPENDENCIES
   rake
   rb-fsevent
   redcarpet
-  sanitize (~> 2.0)
+  sanitize (~> 2.1, >= 2.1.0)
 
 BUNDLED WITH
-   1.11.2
+   1.17.3
