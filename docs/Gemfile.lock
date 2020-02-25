@@ -39,7 +39,7 @@ GEM
     pygments.rb (0.6.3)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.2.0)
-    rake (11.2.2)
+    rake (13.0.1)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
@@ -61,10 +61,10 @@ DEPENDENCIES
   jekyll-redirect-from
   json
   pygments.rb
-  rake
+  rake (>= 12.3.3)
   rb-fsevent
   redcarpet
   sanitize (~> 2.0)
 
 BUNDLED WITH
-   1.11.2
+   1.17.3
